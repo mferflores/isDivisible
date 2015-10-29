@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+bool isDivisible(int m[10],int y)
+   {
+
+   if(m[y]%3==0){
+   return true;}
+   else
+   {return false;}
+
+  }
+
+ int main() {
+
+   int a[10];
+
+
+cout << "Type an integer: "<<endl;
+cin >> a[0];
+
+cout << "Type an integer: "<<endl;
+cin >> a[1];
+
+cout << "Type an integer: "<<endl;
+cin >> a[2];
+
+cout << "Type an integer: "<<endl;
+cin >> a[3];
+
+cout << "Type an integer: "<<endl;
+cin >> a[4];
+
+cout << "Type an integer: "<<endl;
+cin>>a[5];
+
+cout << "Type an integer: "<<endl;
+cin>> a[6];
+
+cout << "Type an integer: "<<endl;
+cin>>a[7];
+
+cout << "Type an integer: "<<endl;
+cin>>a[8];
+
+cout << "Type an integer: "<<endl;
+cin>>a[9];
+
+
+bool answer=isDivisible(a,0);
+if (answer ==true)
+{cout<<a[0]<<" is divisible by 3"<<endl;}
+
+bool answer1=isDivisible(a,1);
+if (answer1 ==true)
+{cout<<a[1]<<" is divisible by 3"<<endl;}
+
+bool answer2=isDivisible(a,2);
+if (answer2 ==true)
+{cout<<a[2]<<" is divisible by 3"<<endl;}
+
+bool answer3=isDivisible(a,3);
+if (answer3 ==true)
+{cout<<a[3]<<" is divisible by 3"<<endl;}
+
+bool answer4=isDivisible(a,4);
+if (answer4 ==true)
+{cout<<a[4]<<" is divisible by 3"<<endl;}
+
+bool answer5=isDivisible(a,5);
+if (answer5 ==true)
+{cout<<a[5]<<" is divisible by 3"<<endl;}
+
+bool answer6=isDivisible(a,6);
+if (answer6 ==true)
+{cout<<a[6]<<" is divisible by 3"<<endl;}
+
+bool answer7=isDivisible(a,7);
+if (answer7 ==true)
+{cout<<a[7]<<" is divisible by 3"<<endl;}
+
+bool answer8=isDivisible(a,8);
+if (answer8 ==true)
+{cout<<a[8]<<" is divisible by 3"<<endl;}
+
+bool answer9=isDivisible(a,9);
+if (answer9 ==true)
+{cout<<a[9]<<" is divisible by 3"<<endl;}
+
+
+
+
+return 0;
+}
